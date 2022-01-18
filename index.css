@@ -1,0 +1,48 @@
+body {
+    
+}
+
+.navi {
+    display: grid;
+    grid-template-columns:repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    padding: 1rem 7% 1rem 7%;
+}
+.n1{
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.n2{
+    font-size: 18px;
+    font-weight: 400px;
+    text-align: center;
+}
+.n3 ,.n4,.n5{
+    color: #6C5CE7;
+    font-size: 18px;
+    font-weight: 400px;
+    text-align: center;
+}
+.n6{
+    text-align: right;
+}
+#navib{
+    border: none;
+    background-color:#6C5CE7 ;
+    border-radius: 999px; 
+    width: 170px;
+    height: 64px;
+    font-size: 15px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    cursor: pointer;
+}
+#navi {
+    cursor: pointer;
+}
+header {
+    box-shadow: 0 2px rgb(224, 218, 218);
+}
