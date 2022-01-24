@@ -399,6 +399,15 @@ section{
     color: white;
     font-weight: 800;
 }
+#body4ib3{
+    width: 306px;
+    height: 64px;
+    font-size: 18px;
+    border-radius: 15px;
+    background-color: white;
+    color: #6C5CE7;
+    font-weight: 800;
+}
 
 .grid4-c {
     display: grid;
@@ -599,11 +608,28 @@ button{
         background-color: #6C5CE7;
         color: white;
     }
+    #body4ib3{
+        width:282px;
+        height: 48px;
+        border: none;
+        background-color:white;
+        color:black;
+    }
     .body4i1{
         color: black;
     }
     .body4i2{
         color: #6C5CE7;
+    }
+    .card3 .body4i1{
+        color: #00B894;
+    }
+    .card3 .body4itext{
+        color: white;
+    }
+    .card3 .body4i2{
+        color: white;
+        text-shadow: 0px 4px 0px #000000;
     }
     #body4ib2{
         width:282px;
@@ -629,15 +655,19 @@ button{
         padding: 1rem;
     }
     .card1{
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        box-shadow:0px 4px 8px rgba(38, 50, 56, 0.16);
+        border-radius: 16px;
     }
     .card2{
         margin-top: 30px;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        box-shadow:0px 4px 8px rgba(38, 50, 56, 0.16);
+        border-radius: 16px;
     }
     .card3{
         margin-top: 30px;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        box-shadow:0px 4px 8px rgba(38, 50, 56, 0.16);
+        border-radius: 16px;
+        background-color: #6C5CE7;
     }
     .call{
         border-radius: 12px;
