@@ -335,9 +335,22 @@ section{
     font-size: 18px;
     line-height: 32px;
 }
+.body4i{
+    display: grid;
+}
+.buttonb4-1{
+    align-self: end;
+}
+.buttonb4-2{
+    align-self: end;
+}
+.buttonb4-3{
+    align-self: end;
+}
 .body4itext{
     font-weight: 400;
     color: #2D3436;
+    font-size: 24px;
 }
 #body4i1i{
     font-size: 48px;
@@ -597,11 +610,34 @@ button{
         height: 48px;
         border: none;
     }
+    .innerb4-1{
+        padding: 1rem;
+    }
+    .buttonb4-1{
+        padding: 1rem;
+    }
+    .innerb4-2{
+        padding: 1rem;
+    }
+    .buttonb4-2{
+        padding: 1rem;
+    }
+    .innerb4-3{
+        padding: 1rem;
+    }
+    .buttonb4-3{
+        padding: 1rem;
+    }
+    .card1{
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
     .card2{
         margin-top: 30px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     }
     .card3{
         margin-top: 30px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     }
     .call{
         border-radius: 12px;
