@@ -554,19 +554,20 @@ button{
     }
     .i8{
         grid-column: 3/5;
-        grid-row: 5/10;
+        grid-row: 5/14;
         background-size: 270px 400px;
 
     }
     .i9{
-        background-size: 295px 290px;
+        background-size: 295px 270px;
         grid-row: 5/9;
     }
     .i7{
         grid-column: 5/7;
-        grid-row: 8;
-        padding-top: 20px;
+        grid-row: 8/16;
+        padding-top: 5px;
         margin: 0;
+        width: 90%;
     }
     #innerb1{
         text-align: center;
