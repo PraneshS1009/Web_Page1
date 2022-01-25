@@ -539,14 +539,29 @@ button{
         font-size: 48px;
     }
     .scroll{
-        width:auto;
-        overflow-x: scroll;
+        overflow: hidden;
     }
     .outer{
-        width:max-content;
-        padding: 10%;
-        overflow: hidden;
-    }   
+        display: grid;
+        grid-template-columns:125px 125px 125px 125px 125px 150px 150px;
+        padding-top: 7%;
+        justify-content: center;
+        grid-gap: 20px;
+        line-height: 32px;
+        font-size:18px;
+        width: 50%;
+        height: 50%;
+    }
+    .i7{
+        grid-column: 3/5;
+        grid-row: 8;
+        padding-top: 4px;
+        margin: 0;
+    }
+    #innerb1{
+        text-align: center;
+
+    }
     .body2{
         padding: 10% 7% 1rem 7%;
     }
