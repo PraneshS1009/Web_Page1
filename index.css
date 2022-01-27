@@ -69,9 +69,11 @@ cursor: pointer;
 }
 section{
     background-image: url('Rectangle.png');
+    position: relative;
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: top;
+    z-index: -2;
     padding: 0;
     margin: 0;
 }
@@ -88,14 +90,24 @@ section{
     font-size: 67px;
     font-weight: 900;
 }
-#innerh1 {
+.innerh1 {
     color: red;
     height: 21px;
     width: 19px;
-    border-radius: 999px;
-    background: #55EFC4;
+    position: relative;
+    text-shadow: 0px 4px 0px #FFFFFF;
 }
-
+.innerh1::before{
+    position: absolute;
+    content: "";
+    background-color: #55EFC4;
+    left: 0;
+    right: 0;
+    top: 70px;
+    bottom: 0;
+    border-radius: 99px;
+    z-index: -1;
+}
 
 .outer {
     display: grid;
@@ -254,22 +266,7 @@ section{
     font-size: 18px;
     line-height: 36px;
 }
-.fa-phone-alt{
-    font-size: 35px;
-    color: rgba(232, 67, 147, 1);
-}
-.fa-chart-pie{
-    font-size: 35px;
-    color: rgba(9, 132, 227, 1);
-}
-.fa-gg-circle{
-    font-size: 35px;
-    color: rgba(108, 92, 231, 1);
-}
-.fa-thumbs-up{
-    font-size: 35px;
-    color:rgba(0, 184, 148, 1);
-}
+
 .body3i1 {
     font-size: 24px;
     font-weight: 900;
@@ -287,21 +284,36 @@ section{
     padding-top: 0;
 }
 .call{
+}
+#call{
     background: #E84393;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     border-radius: 999px;
+    position: relative;
 }
 .pie{
+    position: relative;
     background: #0984E3;
     border-radius: 999px;
 }
 .vector{
+    position: relative;
     background: #6C5CE7;
     border-radius: 999px;
 }
 .like{
+    position: relative;
     background: #00B894;
-    border-radius: 999px;
-    
+    border-radius: 999px;    
+}
+.body3i-png{
+    padding-bottom: 15px;
+}
+.body3i-heading{
+    padding-bottom:10px ;
 }
 
 #body4o{
@@ -317,10 +329,20 @@ section{
     color: black;
 
 }
-#body4h1{
+.body4h1{
     color:#6C5CE7;
-    text-decoration: underline;
-    text-decoration-color:red ;
+    position: relative;
+}
+.body4h1::before{
+    position: absolute;
+    content: "";
+    background-color: #FDCB6E;
+    top: 25px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 99px;
+    z-index: -1;
 }
 
 .body4{
@@ -536,6 +558,17 @@ button{
         font-size: 34px;
         font-weight: 400;
     }
+    .innerh1::before{
+        position: absolute;
+        content: "";
+        background-color: #55EFC4;
+        left: 0;
+        right: 0;
+        top: 34px;
+        bottom: 0;
+        border-radius: 99px;
+        z-index: -1;
+    }
     #media1{
         font-size: 48px;
     }
@@ -607,7 +640,7 @@ button{
         background-color: #ece936;
         border-radius: 50px;
     }
-    #body4h1{
+    .body4h1{
         color: #ADADAD;
         text-decoration: none;
     }
